@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Dictionary</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Dictionary</h1>
+        <div class="search-box">
+            <input type="text" placeholder="Type the word here...." id="inp-word" />
+            <button id="search-btn">Search</button>
+        </div>
+        <div class="result">
+            <li type="none">
+                <p class="message">message</p>
+            </li>
+            <ul>
+                <li class="word">
+                    <div class="details">
+                        <p id="wordCtr">Word</p>
+                        <span id="pronounciationCtr">pronounciation</span>
+                    </div>
+                </li>
+                <div class="content">
+                    <li class="meaning">
+                        <div class="details">
+                            <p>Meaning</p>
+                            <span id="meaningCtr">Lorem ipsum dolor sit amet.</span>
+                        </div>
+                    </li>
+                    <li class="example">
+                        <div class="details">
+                            <p>Example</p>
+                            <span id="exampleCtr">Lorem ipsum dolor sit amet consectetur.</span>
+                        </div>
+                    </li>
+                    <li class="synonyms">
+                        <div class="details">
+                            <p>Synonyms</p>
+                            <div class="list" id="synonymsCtr">Lorem ipsum dolor sit amet consectetur.</div>
+                        </div>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+<!-- 
+ -->
